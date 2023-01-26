@@ -13,5 +13,5 @@ jobs:
       with:
         server: files.000webhost.com
         username: docib-projet
-        password: azerty12
-        server-dir: public_html/
+        password: Azerty123
+        server-dir: ./public_html/
