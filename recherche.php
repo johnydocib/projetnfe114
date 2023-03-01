@@ -1,6 +1,9 @@
 <p>ANNEE ? 
     <h1>Recherche de l'année</h1>
-    <p><input type="submit"/></p>
+    <form action="recherche.php">
+        <p><input type="submit"/></p>
+    </form>
+    
     
     
 
