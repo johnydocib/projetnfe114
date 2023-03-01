@@ -1,7 +1,8 @@
 <p>ANNEE ? 
+<form >
 <p><input type="submit"></p>    
 <SELECT name="annee">
-
+</form>
 <?php
 
 //1° - Connexion à la BDD
