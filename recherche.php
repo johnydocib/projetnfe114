@@ -1,4 +1,5 @@
 <p>ANNEE ? <SELECT name="annee">
+<p><input type="submit"/></p>
 
 <?php
 
