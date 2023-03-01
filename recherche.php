@@ -1,7 +1,8 @@
 <p>ANNEE ? 
+    <SELECT name="annee">
 <form >
 <p><input type="submit"></p>    
-<SELECT name="annee">
+
 </form>
 <?php
 
