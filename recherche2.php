@@ -8,8 +8,8 @@ $ANNEE = $_GET['annee'];
     $base->exec("SET CHARACTER SET utf8");
     
     //2° - Préparation de requette et execution
-    // $retour = $base->query('SELECT DISTINCT annee FROM movies;');
-    $retour = $base->query('SELECT * FROM movies WHERE annee='.$ANNEE.';');
+     $retour = $base->query('SELECT DISTINCT annee FROM movies;');
+    //$retour = $base->query('SELECT * FROM movies WHERE annee='.$ANNEE.';');
     
     //3° - Lecture du resultat de la requette
     while ($data = $retour->fetch()){
