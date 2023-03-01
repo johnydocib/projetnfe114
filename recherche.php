@@ -1,4 +1,5 @@
-<p>ANNEE ? <SELECT name="annee">
+<p>ANNEE ? <SELECT name="annee"><br>
+    <button>Valider</button>
 
     <?php
     
