@@ -2,6 +2,7 @@
 <p><input type="submit"/></p>
 
 <?php
+$ANNEE = $_GET['annee'];
 
 //1° - Connexion à la BDD
 $base = new PDO('mysql:host=localhost; dbname=id20215400_cnamgreta', 'id20215400_boris', '=nq^^=vKz?FRiz7-');
