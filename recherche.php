@@ -1,5 +1,5 @@
 <p>ANNEE ? <SELECT name="annee"><br>
-    <button>Valider</button>
+   <input type="submit">
 
     <?php
     
