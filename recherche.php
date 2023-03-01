@@ -1,8 +1,6 @@
 <p>ANNEE ? 
     <h1>Recherche de l'année</h1>
-    <form>
-        <input type="Submit" name="annee">
-    </form>
+    
     
 
 
