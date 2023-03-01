@@ -25,6 +25,8 @@
     //3° - Lecture du resultat de la requette
     while ($data = $retour->fetch()){
     echo "<option>".$data['annee']."</option>";
+    echo "<option>".$data['titre']."</option>";
+    echo "<option>".$data['genre']."</option>";
     }
     
     ?>
