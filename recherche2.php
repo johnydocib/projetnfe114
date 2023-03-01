@@ -2,6 +2,7 @@
 
   
 $ANNEE = $_GET['annee'];
+
     //1° - Connexion à la BDD
     $base = new PDO('mysql:host=localhost; dbname=id20206067_movies', 'id20206067_docib', 'Carnet741852@');
     $base->exec("SET CHARACTER SET utf8");
