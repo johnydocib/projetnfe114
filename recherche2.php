@@ -12,7 +12,7 @@ $ANNEE = $_GET['annee'];
     
     //3° - Lecture du resultat de la requette
     while ($data = $retour->fetch()){
-    echo "<option>".$retour."</option>";
+    echo "<option>".$data['annee']."</option>";
     
     }
     
