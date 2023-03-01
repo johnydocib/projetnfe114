@@ -4,7 +4,7 @@
     <form action="recherche2.php">
         <p><input type="submit"/></p>
     </form>
-    
+    <SELECT name="annee"><br> 
     
     
 
@@ -30,5 +30,5 @@
     }
     
     ?>
-   
-  
+    </SELECT>
+    </p>
