@@ -35,7 +35,7 @@
         });
       }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=VOTRE_CLE_API&callback=initMap"
+    <script src="https://openlayers.org/api/OpenLayers.js"
     async defer></script>
   </body>
 
