@@ -38,13 +38,13 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=VOTRE_CLE_API&callback=initMap"
     async defer></script>
   </body>
-</html>
 
 
 
 
-<html>
-<head>
+
+
+
 <script>
 function envoyer(){
     //Récuppération des valeurs saisies pas l'utilisateur
@@ -71,8 +71,8 @@ function envoyer(){
 }    
 </script>
 
-</head>    
-<body>
+   
+
 <p>Adresse <input id="rue"/></p>
 <p>Code postal <input id="code"/></p>
 <button onclick="envoyer()">Envoyer</button>
