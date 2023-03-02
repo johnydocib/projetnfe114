@@ -72,8 +72,6 @@ function envoyer(){
 }    
 </script>
 
-</head>    
-<body>
 <p>Adresse <input id="rue"/></p>
 <p>Code postal <input id="code"/></p>
 <button onclick="envoyer()">Envoyer</button>
