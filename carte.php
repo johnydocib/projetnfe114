@@ -18,32 +18,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
   </head>
   <body>
-    <form>
-      <label for="latitude">Latitude:</label>
-      <input type="text" id="latitude" name="latitude"><br><br>
-      <label for="longitude">Longitude:</label>
-      <input type="text" id="longitude" name="longitude"><br><br>
-      <button type="button" onclick="afficherCarte()">Afficher</button>
-    </form>
-    <div id="map"></div>
-    <script>
-      function afficherCarte() {
-        var lat = document.getElementById("latitude").value;
-        var long = document.getElementById("longitude").value;
-        var map = L.map('map').setView([parseFloat(lat), parseFloat(long)], 13);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
-          maxZoom: 18,
-          tileSize: 512,
-          zoomOffset: -1
-        }).addTo(map);
-        var marker = L.marker([parseFloat(lat), parseFloat(long)]).addTo(map);
-      }
-    </script>
-
-    <hr>
-
-    <h1>Tout d'abord récupérer les coordonnées</h1>
+  <h1>Tout d'abord récupérer les coordonnées</h1>
     <html>
 
 <script>
@@ -77,6 +52,40 @@ function envoyer(){
 <button onclick="envoyer()">Envoyer</button>
 <p id="result"></p>
 
+
+
+
+
+
+
+    <hr>
+
+    <form>
+      <label for="latitude">Latitude:</label>
+      <input type="text" id="latitude" name="latitude"><br><br>
+      <label for="longitude">Longitude:</label>
+      <input type="text" id="longitude" name="longitude"><br><br>
+      <button type="button" onclick="afficherCarte()">Afficher</button>
+    </form>
+    <div id="map"></div>
+    <script>
+      function afficherCarte() {
+        var lat = document.getElementById("latitude").value;
+        var long = document.getElementById("longitude").value;
+        var map = L.map('map').setView([parseFloat(lat), parseFloat(long)], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+          maxZoom: 18,
+          tileSize: 512,
+          zoomOffset: -1
+        }).addTo(map);
+        var marker = L.marker([parseFloat(lat), parseFloat(long)]).addTo(map);
+      }
+    </script>
+
+    <hr>
+
+    
 
   </body>
 </html>
