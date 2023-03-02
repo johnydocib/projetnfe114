@@ -9,7 +9,7 @@ $base = new PDO('mysql:host=localhost; dbname=id20206067_movies', 'id20206067_do
 $base->exec("SET CHARACTER SET utf8");
 
 //2° - Préparation de requette et execution
-$retour = $base->query('SELECT *, get_distance_metres(\'48.858205\', \'2.294359\', equi_lat, equi_long)
+$retour = $base->query('SELECT *, get_distance_metres(\'43.296482\', \'5.36978\', equi_lat, equi_long)
  
 AS proximite 
 FROM equipement 
