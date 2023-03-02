@@ -19,7 +19,7 @@ LIMIT 10;
 
 //Boucle For
 while ($data = $retour->fetch()){
-echo $data['equi_lat']."\t".$data['equi_long']."\tMoi\tMa Position\tOl_icon_red_example.png\t24,24\t0,-24\n";
+echo $data['equi_lat']."\t".$data['equi_long']."\tMoi\tMes Proximité\tOl_icon_red_example.png\t24,24\t0,-24\n";
 }
 
 ?>
